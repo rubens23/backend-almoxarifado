@@ -1,6 +1,6 @@
 from decimal import Decimal
 from sqlalchemy.orm import declarative_base, relationship
-from sqlalchemy import Column, DateTime, Integer, ForeignKey, String, Numeric
+from sqlalchemy import Column, Integer, ForeignKey, Numeric
 from pydantic import BaseModel
 
 Base = declarative_base()

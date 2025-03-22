@@ -1,5 +1,5 @@
 from sqlalchemy.orm import declarative_base
-from sqlalchemy import Column, DateTime, Integer, String,
+from sqlalchemy import Column, DateTime, Integer, String
 from pydantic import BaseModel
 
 Base = declarative_base()
